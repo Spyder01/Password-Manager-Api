@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{{ url_for('static', path='/styles.css') }}" rel="stylesheet">
+    <style>
+
+#btn {
+    border-radius: 25px;
+    border-color: #fff;
+    border-style: solid;
+    padding: 6px;
+    cursor: pointer;
+    width: 10vw;
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+#btn:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+@media (max-width: 768px) {
+    #btn {
+        width: 25vw;
+    }
+}
+    </style>
+    <title>Password Manager Api</title>
+</head>
+<body>
+
+    <h1 class="heading">
+        Password Manager API
+    </h1>
+    <div id="btn">Go to Docs</div>
+
+    
+</body>
+
+<script>
+const btn = document.getElementById ("btn");
+
+btn.addEventListener ("click", ()=>{
+    document.location = "/docs"
+})
+</script>
+
+</html>

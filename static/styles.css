@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Poppins&display=swap');
+
+body {
+    height: 100vh;
+    width: 100vw;
+    color: #fff;
+    background-color: #020406;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 5%;
+}
+
+.heading {
+    font-size: 3.85em;
+    text-transform: uppercase;
+}
+
+#btn {
+    border-radius: 13px;
+    border-color: #fff;
+    border-style: solid;
+    padding: 3%;
+    cursor: pointer;
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
